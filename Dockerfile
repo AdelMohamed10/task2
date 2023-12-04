@@ -2,8 +2,8 @@ FROM openjdk
 
 WORKDIR /App
 
-COPY Adel.java .
+COPY adel.java .
 
-RUN javac Adel.java
+RUN javac adel.java
 
-CMD [ "java", "Adel" ]
+CMD [ "java", "adel" ]
